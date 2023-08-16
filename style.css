@@ -1,10 +1,35 @@
 body {
     background-color: #f2f2f2;
+    font-family: 'Nunito', sans-serif;
+}
+nav {
+    border-top: 2px solid #fff;
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+nav ul a {
+    color: #477196;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
 }
 #wrapper {
     width: 80%;
     margin: 10px auto;
     padding: 50px;
     border-radius: 50px;
-    background-color: #B88E69;
+    background-color: #B78B66;
+}
+#title {
+    padding: 0 5px 10px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
 }
