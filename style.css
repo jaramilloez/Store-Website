@@ -1,3 +1,10 @@
 body {
-    background-color: #F1E0C5;
+    background-color: #f2f2f2;
+}
+#wrapper {
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: #B88E69;
 }
