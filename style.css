@@ -21,8 +21,17 @@ body {
     border-top: 2px solid;
 }
 .menu-item {
+    padding: 2px 0;
     letter-spacing: 2px;
     font-size: 18px;
     text-decoration: none;
     border-bottom: 2px solid;
+}
+#welcome-header {
+    padding: 10px 0;
+    font-size: 20px;
+}
+#welcome-description {
+    font-size: 18px;
+    line-height: 1.5em;
 }
