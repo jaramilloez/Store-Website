@@ -3,35 +3,61 @@ body {
 }
 #wrapper {
     width: 80%;
-    margin: 10px auto;
-    padding: 50px;
-    border-radius: 50px;
+    margin: auto;
 }
 #title {
-    padding: 0 5px 10px;
-    font-size: 50px;
+    padding: 10px 5px;
+    font-size: 30px;
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
 }
-#menu {
+nav {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
     border-top: 2px solid;
 }
-.menu-item {
+.nav-item {
     padding: 2px 0;
     letter-spacing: 2px;
     font-size: 18px;
     text-decoration: none;
     border-bottom: 2px solid;
 }
+main {
+    margin: 50px 0;
+}
+#welcome {
+    width: 40%;
+    height: auto;
+    float: right;
+}
 #welcome-header {
-    padding: 10px 0;
-    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
 }
 #welcome-description {
-    font-size: 18px;
-    line-height: 1.5em;
+    font-size: 15px;
+    line-height: 200%;
+}
+#featured-carousel img {
+    width: 50%;
+    height: auto;
+}
+#new-recipe {
+    padding: 22px 2px;
+    display: flex;
+    align-items: center;
+}
+#new-recipe img {
+    padding-right: 5px; 
+    width: 30px;
+    height: 30px;
+    border-right: 2px solid;
+}
+#new-recipe-text {
+    padding: 5px;
+    font-size: 20px;
 }
