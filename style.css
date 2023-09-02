@@ -3,21 +3,23 @@
     margin: auto;
 }
 #title {
-    padding: 10px 5px;
+    padding: 15px 5px;
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
 }
 nav {
+    margin: 0 0 10px;
+
     display: flex;
     justify-content: space-between;
     border-top: 2px solid;
+    border-bottom: 2px solid;
 }
 nav button {
-    margin: 10px 0 0;
+    padding: 10px 5px;
     border: none;
-    border-bottom: 2px solid;
     background-color: transparent;
     font-size: 18px;
     cursor: pointer;
@@ -25,6 +27,9 @@ nav button {
 .nav-item {
     position: relative;
     text-decoration: none;
+}
+.nav-item:hover {
+    background-color: #f8f8f8;
 }
 .nav-item:hover ul {
     display: block;
@@ -39,7 +44,8 @@ nav button {
 .nav-item ul li {
     padding: 5px;
     border-bottom: 2px solid;
-    background-color: lightgray;
+    border-width: 50%;
+    background-color: rgba(212, 212, 212, 0.9);
 }
 .nav-item ul li a {
     color: #000;
